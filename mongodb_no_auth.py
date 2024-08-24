@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 class MongoDBNoAuth:
     def __init__(self):
-        self.api = Shodan('civYo8aALAhkpfQ3azo7Hw9BsltftueC')
+        self.api = Shodan('')
         self.limit = 0
         self.mongo_urls = []
 
